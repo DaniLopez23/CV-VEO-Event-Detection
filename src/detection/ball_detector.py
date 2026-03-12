@@ -15,6 +15,8 @@ class BallDetector:
         """
         results = self.model(frame)
         detections = []
+        
+        # Recorre resultados y filtra por clase y confianza
 
         for r in results:
             for box in r.boxes:
