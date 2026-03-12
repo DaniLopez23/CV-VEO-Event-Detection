@@ -1,4 +1,4 @@
-ultralytics==8.0.113
+ultralytics>=8.2.0
 opencv-python
 numpy
 pandas
