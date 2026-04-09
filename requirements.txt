@@ -4,3 +4,5 @@ numpy
 pandas
 tqdm
 matplotlib
+scipy>=1.10.0
+# roboflow  # Opcional: para descargar modelos especializados de balon
